@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      color: hsl(193, 38%, 86%);
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(150, 100%, 66%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 shadow p-5 mb-5 bg-body rounded">
+        <div id="box" class="text-center">
+          <p id="advice">ADVICE #<span id="advice-no"></span></p>
+          <p id="advice-text"></p>
+          <img id="divider" src="./images/pattern-divider-desktop.svg" alt="pattern_divider" class="image-fluid">
+          <div id="button" onclick="display()">
+            <img id="dice" src="./images/icon-dice.svg" alt="dice_icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/kartiksubaiah" target="_blank">Kartik Subaiah</a>.
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
