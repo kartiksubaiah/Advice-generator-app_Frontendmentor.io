@@ -21,8 +21,8 @@ Random advice generating app by clicking the dice icon using the [Advice Slip AP
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/kartiksubaiah/Advice-generator-app_Frontendmentor.io)
+- Live Site URL: (https://kartiksubaiah.github.io/Advice-generator-app_Frontendmentor.io/)
 
 
 ### Built with
@@ -32,6 +32,7 @@ Random advice generating app by clicking the dice icon using the [Advice Slip AP
 - Flexbox
 - CSS Grid
 - Bootstrap
+- Javascript
 
 ### Continued development
 
